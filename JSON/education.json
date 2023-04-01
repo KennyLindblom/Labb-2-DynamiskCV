@@ -1,0 +1,17 @@
+[
+    {
+        "school": "Campus Varberg",
+        "orientation": "System development",
+        "date_range": "2022-Pressent",
+        "description": "Higher vocational education with focus on the .NET platform. Courses on C#, Object oriented programming, advanced .NET, agile work methods and more."
+
+    },
+    {
+        "school": "Pederskrivare highschool",
+        "orientation": "Arts Programme",
+        "date_range": "2009-2012",
+        "description": "Higschool degree with a specialitation of music"
+        
+        
+    }
+]

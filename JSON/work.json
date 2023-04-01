@@ -1,0 +1,40 @@
+[
+    {
+        "position": "Warehouse employee",
+        "company": "Carlsberg Sverige AB",
+        "date_range": "2021-now",
+        "description": "I worked with the automated warehouse for Carlsberg in Falkenberg. My job was to make sure that all machines and system was working so that the daily orders could be picked and sent out to the customers."
+    },
+    {
+        "position": "Forklift operator",
+        "company": "Carlsberg Sverige AB",
+        "date_range": "2015-2021",
+        "description": "I worked with material management for pre-production at Carlsberg Brewery. Supplying different departments at the brewery with pallets and more to make sure the daily production could go forward. Unloading and loading trucks was also a part of the job."
+
+    },
+    {
+        "position": "Decontamination employee",
+        "company": "ISS facility Service",
+        "date_range": "2014-2015",
+        "description": "Worked on auditing for Ringhals in Varberg. Transported machines and other things from the inside out of the nuclear power plant to areas where they would be cleaned up."
+
+    },
+    
+    {
+        "school": "Campus Varberg",
+        "orientation": "System development",
+        "date_edu": "2022-Pressent",
+        "info": "Higher vocational education with focus on the .NET platform. Courses on C#, Object oriented programming, advanced .NET, agile work methods and more."
+
+    },
+    {
+        "school": "Pederskrivare highschool",
+        "orientation": "Arts Programme",
+        "date_edu": "2009-2012",
+        "info": "Higschool degree with a specialitation of music"
+        
+        
+    }
+
+    
+]

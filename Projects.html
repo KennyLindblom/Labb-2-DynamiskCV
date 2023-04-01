@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,100' rel='stylesheet' type='text/css'>
+    <link href="CSS/style.css" rel="stylesheet">
+    <link rel="icon" href="Media/k.png">
+    <title>Kenny Lindblom</title>
+
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <h1>Projects</h1>
+        <p>My projects</p>
+        <a class="btn" href="contact.html">Contact me </a>
+      </div>
+    </div>
+
+    <div class="nav">
+      <div class="container">
+        
+        <ul>
+            <li><a class="" href="index.html" target="_self">Home</a></li>
+            <li><a href="aboutme.html" target="_self">About me</a></li>
+            <li><a class="" href="resume.html" target="_self">Resumé</a></li>
+            <li><a class="active" href="Projects.html" target="_self">Projects</a></li>
+        </ul>
+      </div>
+    </div>
+
+    
+    <div class="main">
+        <div class="container">
+          <div class="portfolio-list">
+            <div class="project-card">
+              <img src="Media/classroom.webp" alt="Project image">
+              <h3>Highshool Database</h3>
+              <p>Database of a highschool</p>
+              <a href="#popup1" class="modal-btn">Learn more</a>
+            </div>
+            <div class="project-card">
+              <img src="Media/bank.jpg" alt="Project image">
+              <h3>Bank application</h3>
+              <p>Bank application in C#</p>
+              <a href="#popup2" class="modal-btn">Learn more</a>
+            </div>
+            <div class="project-card">
+              <img src="Media/bankteam.jpg" alt="Project image">
+              <h3>Team grape bankapplication</h3>
+              <p>Bank application in C# with OOP</p>
+              <a href="#popup3" class="modal-btn">Learn more</a>
+            </div>
+            <div class="project-card">
+              <img src="Media/Numbers.png" alt="Project image">
+              <h3>Number guessing</h3>
+              <p>Gues the number program in C#</p>
+              <a href="#popup4" class="modal-btn">Learn more</a>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Modal for project 1 -->
+        <div id="popup1" class="modal">
+          <div class="modal-content">
+            <h2>Highshool Database</h2>
+            <p>This is a project i made in SQL and C# for the database course.
+             <br>the goal was to make a database of a school in SQL and then make a console application in <br>
+             C# using entity framework to connect the database to the project in Visual Studio.
+            </p>
+            <hr>
+            <h3><a href="https://github.com/KennyLindblom/Individuellt-databasprojekt" target="_blank">Link to project</a></h3>
+            
+            <br>
+            <a href="#close" class="close-modal">Close</a>
+          </div>
+        </div>
+      
+        <!-- Modal for project 2 -->
+        <div id="popup2" class="modal">
+          <div class="modal-content">
+            <h2>Bank application</h2>
+            <p>This is a project i made with C# in the first course of the education at Campus Varberg.
+                <br> the goal was to create bank application where the user could enter a username and a pincode<br>
+                to get accses to the users accounts and move money between accounts, take out money and check the balance<br>
+                of the accounts.
+            </p>
+            <hr>
+            <h3><a href="https://github.com/KennyLindblom/ATM.Individuellt-projekt" target="_blank">Link to project</a></h3>
+            <br>
+            <a href="#close" class="close-modal">Close</a>
+          </div>
+        </div>
+      
+        <!-- Modal for project 3 -->
+        <div id="popup3" class="modal">
+          <div class="modal-content">
+            <h2>Team grape bankapplication</h2>
+            <p>This project was a group project that i made with four other people.<br>
+               The goal was to make a bankapplication where a user could login and make
+               <br> transactions and more. The app uses object oriented programming. 
+             </p>
+             <hr>
+             <h3><a href="https://github.com/qvarnstr0m/TeamGrapeBankApp" target="_blank">Link to project</a></h3>
+             <br>
+
+            <a href="#close" class="close-modal">Close</a>
+          </div>
+        </div>
+      
+        <!-- Modal for project 4 -->
+        <div id="popup4" class="modal">
+          <div class="modal-content">
+            <h2>Number guessing</h2>
+            <p>One of the first projects i made with C#. A random number is stored in a varibal<br>
+                and its up to the user to guess the right random number. The user has 5 guesses.<br>
+                it is bulit with basic C# commands and there are 3 difficulties the user can chose <br>
+                that will give the user a bigger span of numbers to guess between.
+                <ul>
+                    <li>Easy: number 1-20 with 5 tries</li>
+                    <li>Normal: number 1-50 with 10 tries</li>
+                    <li>Hard: number 1-100 with 15 tries </li>
+                </ul>
+            </p>
+            <hr>
+            <h3><a href="https://github.com/KennyLindblom/NumbersGame" target="_blank">Link to project</a></h3>
+            <br>
+            
+
+            <a href="#close" class="close-modal">Close</a>
+          </div>
+        </div>
+        <div id="myModal">
+          <div id="myModal-content">
+            <span id="myModal-close">&times;</span>
+            <p>Yes, Kenny is the maker of this website.</p>
+          </div>
+        </div>
+        <div class="footer" id="footer">
+            
+              <p>&copy; Arthour Kenny Lindblom</p>
+              <button id="btnColor">Click here for disco</button> 
+              
+           
+          </div>
+      </div>
+
+      <script src="JS/Easteregg1.js"></script>
+      <script src="JS/Easteregg2.js"></script>
+  </body>
+</html>
